@@ -1,0 +1,18 @@
+{
+  "NEWS_API":
+  {
+    "NEWS_API_KEY" : "b9e7885ce0cf4db8ab8a5bd7e292c15c",
+    "LANGUAGE": "en",
+    "SORT_BY": "relevancy",
+    "SEARCH_TERMS" : ["SP500", "NASDAQ", "Dow Jones", "FTSE 100", "DAX", "Nikkei 225", "CAC 40"]
+  },
+  "INDEX_MAPPING": {
+    "SP500": "^GSPC",
+    "NASDAQ": "^IXIC",
+    "Dow Jones": "^DJI",
+    "FTSE 100": "^FTSE",
+    "DAX": "^GDAXI",
+    "Nikkei 225": "^N225",
+    "CAC 40": "^FCHI"
+  }
+}
